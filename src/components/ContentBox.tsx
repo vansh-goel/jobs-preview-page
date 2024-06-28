@@ -36,13 +36,13 @@ const ContentBox = () => {
         <About />
         <JobProfile />
       </div>
-      <div className="col-span-3 py-6 px-4">
-        <div className="flex gap-2 w-full justify-center font-medium">
-          <Button className="text-[#db492c] gap-2 h-12 border-[#db492c] border-[1px] rounded-lg px-8 bg-[#fff4f2]">
+      <div className="col-span-3 py-6 px-8">
+        <div className="flex gap-2 w-full px-4 justify-center font-medium">
+          <Button className="text-[#db492c] gap-2 h-12 border-[#db492c] border-[1px] rounded-lg px-6  bg-[#fff4f2]">
             <RiDeleteBin6Line />
             Delete job
           </Button>
-          <Button className="text-white bg-[#db492c] border-[#fff4f2] border-[1px] px-12 h-12 rounded-lg">
+          <Button className="text-white bg-[#db492c] border-[#fff4f2] border-[1px] px-8 h-12 rounded-lg">
             <LuPencil />
             Edit job
           </Button>
