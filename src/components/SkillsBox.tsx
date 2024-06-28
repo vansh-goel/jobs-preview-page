@@ -4,7 +4,7 @@ import { SiAdobeillustrator } from "react-icons/si";
 import { SiAdobexd } from "react-icons/si";
 const SkillsBox = () => {
   return (
-    <div className="border-b border-2">
+    <div className="border-b">
       <div className="flex space-x-20 px-24 py-6 text-[#6e6d6d]">
         <div>
           <h1>Skills Required</h1>
